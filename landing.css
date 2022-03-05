@@ -146,11 +146,11 @@
     }
     header .links a{
         padding: 0px;
-        margin: 7px;
+        margin: 4px;
     }
 
     header .links button{
-        padding: 10px 6px;
+        padding: 10px 4px;
     }
     header .links{
         width: 100%;
