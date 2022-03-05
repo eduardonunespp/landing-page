@@ -1,0 +1,192 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Varela+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&display=swap');
+
+
+    *{
+        box-sizing: border-box;
+    }
+
+    :root{
+
+        --font01: 'Cabin', sans-serif;
+        --font02: 'Varela Round', sans-serif;
+        --font03: 'Anton', sans-serif;
+        --colorprimary: #9B06CE;
+
+    }
+
+    body{
+        background-color: rgb(51, 51, 51);
+    
+    }
+    .pai{
+        width: 1000px;
+        margin: auto;
+    }
+
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        padding: 30px;
+        margin: auto;  
+    }
+
+    header h1{
+        font-family:  'Cabin', sans-serif;
+        color: white;
+    }
+
+    header a{
+        text-decoration: none;
+        color: white;
+        padding: 1px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 0.9em;
+        margin: 0px 10px;
+        transition-duration: 0.7s;
+    }
+
+    header a:hover{
+        color: var(--colorprimary);
+    }
+
+    header button{
+        padding: 10px 20px;
+        font-size: 0.9em;
+        background-color: rgba(204, 204, 204, 0);
+        border: 3px solid var(--colorprimary);
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+        border-radius: 9px;
+        transition: 0.9s;    
+    }
+
+    header button:hover{
+        background-color: var(--colorprimary);
+        color:  white;
+
+    }
+
+    .pai main{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .box1, .box2{
+        padding: 10px;
+        width: 50%;
+    }
+
+    .box1 h2{
+        font-size: 2.5em;
+        color:rgb(199, 47, 199);
+        font-family: var(--font02);
+    }
+
+    .box1 p{
+        font-size: 0.9em;
+        font-family: var(--font02);
+        color: white;
+        font-weight: bold;
+        margin: 30px 0px;
+        line-height: 1.5em;
+    }
+
+    .box1 input{
+        padding: 12px;
+        width: 60%;
+        border-radius: 10px;
+        border: none;
+        margin: 8px 0px;
+        transition: 1s;
+        font-family: var(--font02);
+    }
+
+    .box1 input:focus{
+        background-color: var(--colorprimary);
+        color: white;
+        width: 100%;
+    }
+
+    .box1 button{
+        padding: 12px;
+        width: 150px;
+        border: none;
+        color: white;
+        background-color: var(--colorprimary);
+        border-radius: 10px;
+        margin-top: 10px;
+        font-family: var(--font02);
+        transition: 0.9s;
+    }
+
+    .box1 button:hover{
+        background-color: #60067e;
+        transform: translate(-10px, 0px);
+    }
+
+@media (max-width: 900px){
+
+   
+    .pai{
+        width: 100%;
+    }
+
+    header{
+        flex-direction: column;
+        margin-bottom: 100px;
+        
+    }
+    header .links a{
+        padding: 0px;
+        margin: 7px;
+    }
+
+    header .links button{
+        padding: 10px 6px;
+    }
+    header .links{
+        width: 100%;
+        margin-top: 15px;
+    }
+   
+    .pai main{
+        flex-direction: column;
+    }
+    .pai{
+        text-align: center;
+    }
+
+    main img{
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .box1, .box2{
+        width: 100%;
+
+    }
+    .box1{
+        margin-bottom: 50px;
+    }
+    .box1 button:hover{
+        transform: translate(-55px, 0px);
+        transition: 1.5s;
+    }
+    
+    .box2{
+        position: relative;
+        height: 300px;
+    }
+
+    
+}
