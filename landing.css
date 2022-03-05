@@ -163,6 +163,9 @@
     .pai{
         text-align: center;
     }
+    .pai #pp{
+        text-align: justify;
+    }
 
     main img{
         width: 300px;
