@@ -8,12 +8,10 @@
     }
 
     :root{
-
         --font01: 'Cabin', sans-serif;
         --font02: 'Varela Round', sans-serif;
         --font03: 'Anton', sans-serif;
         --colorprimary: #9B06CE;
-
     }
 
     body{
@@ -29,7 +27,6 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        align-items: center;
         height: 120px;
         padding: 30px;
         margin: auto;  
@@ -132,8 +129,7 @@
         transform: translate(-10px, 0px);
     }
 
-@media (max-width: 900px){
-
+    @media (max-width: 900px){
    
     .pai{
         width: 100%;
@@ -141,28 +137,34 @@
 
     header{
         flex-direction: column;
-        margin-bottom: 100px;
-        
+        margin-bottom: 150px;
+        padding: 0px;
     }
+
     header .links a{
         padding: 0px;
-        margin: 3px;
+        margin: 4px;
     }
 
     header .links button{
-        padding: 10px 1px;
+        padding: 10px 5px;
     }
+
     header .links{
         width: 100%;
         margin-top: 15px;
+        border-bottom: 1px solid var(--colorprimary); 
+        padding-bottom: 40px; 
     }
    
     .pai main{
         flex-direction: column;
     }
+
     .pai{
         text-align: center;
     }
+
     .pai #pp{
         text-align: justify;
     }
@@ -172,15 +174,16 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-
     }
+
     .box1, .box2{
         width: 100%;
-
     }
+
     .box1{
         margin-bottom: 50px;
     }
+
     .box1 button:hover{
         transform: translate(-55px, 0px);
         transition: 1.5s;
@@ -190,6 +193,5 @@
         position: relative;
         height: 300px;
     }
-
-    
+ 
 }
