@@ -1,4 +1,9 @@
 
+<h1></h1>
+
+![WhatsApp Image 2023-06-18 at 09 36 05](https://github.com/eduardonunespp/landing-page/assets/100363170/41359bf8-2d1a-4f14-ac36-ac7e2431c1fa)
+
+<h1></h1>
 
 <hr>
 
@@ -28,5 +33,6 @@ Este é um exemplo de Landing Page. A Landing Page é uma página da web criada 
 
 Este projeto foi desenvolvido como um exemplo de lading page, praticando HTML e CSS, com foco em responsividade, algo essencial para projetos atuais.
 
-O projeto está disponível em: <strong><a href="https://eduardonunespp.github.io/landing-page/">landing page</a><strong> 🚀
+Você pode acessar este projeto em: <strong><a href="https://eduardonunespp.github.io/landing-page/">landing page</a><strong> 🚀
 
+;)
